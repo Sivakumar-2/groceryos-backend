@@ -1,2 +1,24 @@
 node_modules
+.env# Dependencies
+node_modules/
+
+# Environment variables - NEVER commit this
 .env
+.env.local
+.env.production
+
+# Uploaded files
+uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
